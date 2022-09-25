@@ -4,52 +4,63 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        alignSelf: 'center'
+        backgroundColor: '#fff',
+        alignItems: 'center',
+        justifyContent: 'center',
     },
-    title:{
-        fontFamily: 'Impact',
-        fontSize: 50,
-        padding: 80,
-        color: 'green',
-        alignSelf: 'center',
-        textShadowColor: 'gray',
-        textShadowOffset: {width: -1, height: 1},
-        textShadowRadius: 5,
+    subcontainer: {
+        flex: 4
     },
-    gasPump:{        
+    titulo: {
+        color: 'purple',
+        fontSize: 40,
         alignSelf: 'center',
-        width: 300, 
-        height: 300,
-        padding: 50,
-        borderRadius: 40,
+        margin: 50,
+        flex: 1,
     },
-    textInput:{
-        height: 45,
-        width: '50%',
-        alignSelf: 'center',
-        borderWidth: 1,
-        borderColor: '#222',
-        margin: 10,
-        fontSize: 20,
+    textInput: {
+        alignSelf: 'stretch',
         padding: 10,
+        marginLeft: 50,
+        borderBottomColor: '#000',
+        margin: 5,
+        marginRight: 50,
+
+        borderBottomColor: '#000', // Add this to specify bottom border color
+        borderBottomWidth: 2     // Add this to specify bottom border thickness
     },
-    button:{
-        backgroundColor: '#42f54e',
-        width: '50%',
+    form: {
+        flexDirection: 'row',
+        
+    },
+    button: {
+        backgroundColor: 'purple',
+        width: '20%',
+        borderColor: 'black',
+        borderStyle: 'solid',
+        borderRadius: 10,
+        padding: 10
+    },
+    buttonText: {
         alignSelf: 'center',
-        padding: 15,        
-        borderRadius: 20,
+        fontSize: 20,
+        color: 'white'
     },
-    textButton:{
-        fontSize: 30,
-        fontWeight: 'bold',
-        alignSelf: 'center'
+    switch: {
+        marginLeft: 10,
     },
-    resultado:{
+    sliderText:
+    {
+        textAlign: 'center',
         fontSize: 25,
-        color: '#42f54e',
-        fontWeight: 'bold',
-        alignSelf: 'center'
-    }
-})
-export { styles };
+        color: 'green'
+    },
+    resultados:
+    {
+        alignContent: 'left',
+        justifyContent: 'left',
+        width: 500,
+    },
+});
+
+export { styles }
