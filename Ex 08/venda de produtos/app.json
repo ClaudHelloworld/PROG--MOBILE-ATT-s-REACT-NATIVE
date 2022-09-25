@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "AlcoolGasolina",
-    "slug": "AlcoolGasolina",
+    "name": "vendadeprodutos",
+    "slug": "vendadeprodutos",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
